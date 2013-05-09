@@ -118,4 +118,12 @@
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">8</integer>
 
+    <!-- Control whether a desk dock event should override the default bluetooth
+         audio routing, FORCE_BT_DESK_DOCK, with an analog dock, FORCE_ANALOG_DOCK. -->
+    <bool name="config_forceAnalogDeskDock">true</bool>
+
+    <!-- Control whether a car dock event should override the default bluetooth
+         audio routing, FORCE_BT_CAR_DOCK, with an analog dock, FORCE_ANALOG_DOCK. -->
+    <bool name="config_forceAnalogCarDock">true</bool>
+
 </resources>
