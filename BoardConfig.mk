@@ -34,7 +34,6 @@ TARGET_KERNEL_CONFIG := cyanogenmod_i9300_defconfig
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/i9300/rootdir/fstab.smdk4x12
 RECOVERY_FSTAB_VERSION := 2
-USE_SET_METADATA := false
 
 # Selinux
 BOARD_SEPOLICY_DIRS += \
