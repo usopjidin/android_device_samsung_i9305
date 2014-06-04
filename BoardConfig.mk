@@ -36,6 +36,9 @@ ARM_EABI_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-
 TARGET_RECOVERY_FSTAB := device/samsung/i9300/rootdir/fstab.smdk4x12
 RECOVERY_FSTAB_VERSION := 2
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+
 # Selinux
 BOARD_SEPOLICY_DIRS += \
     device/samsung/i9300/selinux
